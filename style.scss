@@ -1,11 +1,19 @@
 *,
-:before,
-:after {
+::before,
+::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Karla', sans-serif;
 }
 
+#section h1 {
+    color: #2AB3B1;
+}
+
+h3 {
+    color: #C0DF33;
+}
